@@ -67,15 +67,15 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:ANKER\n'
-            + 'ORG:Owner DARK BOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
+            + 'FN:zann\n'
+            + 'ORG:Owner;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6289610153337:+62 896 1015 3337\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ D A R K | B O T"
-rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN DARKBOT😁"
-rmenu = "HAI TEMEN DARKBOT👋 JANGAN LUPA DONASI YAA:)"
+name = "zaan bot"
+rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN ku😁"
+rmenu = "HAI TEMEN zann bot👋 JANGAN LUPA DONASI YAA:)"
 limitt = 10
 ban = []
 
