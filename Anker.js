@@ -69,7 +69,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:fauzan\n'
             + 'ORG:Owner owipspabot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6289610153337:+62 896 1015-3337\n'
             + 'END:VCARD'
 
 prefix = "!"
