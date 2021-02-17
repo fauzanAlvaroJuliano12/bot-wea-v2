@@ -67,16 +67,16 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:ANKER\n'
-            + 'ORG:Owner DARK BOT;\n'
+            + 'FN:fauzan\n'
+            + 'ORG:Owner owipspabot;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ D A R K | B O T"
-rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN DARKBOT😁"
-rmenu = "HAI TEMEN DARKBOT👋 JANGAN LUPA DONASI YAA:)"
-limitt = 10
+name = "owipspabot"
+rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN owipspabot😁"
+rmenu = "HAI TEMEN owipspabot👋 JANGAN LUPA DONASI YAA:)"
+limitt = 100
 ban = []
 
 function kyun(seconds){
@@ -200,7 +200,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6289610153337@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
