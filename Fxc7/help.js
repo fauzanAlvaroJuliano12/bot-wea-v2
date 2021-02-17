@@ -314,6 +314,7 @@ DI SITU ADA TUTORIAL JADI BOT
 │➲ *MY TEAM FXC7 BOT*
 │➲ *CONTENT CREATOR BOT WHATSAPP*
 │➲ *FXC7*
+│➲ *LM0* <editor>
 ┬
 ╰────────────────────────`
 }
@@ -336,12 +337,12 @@ const donasi = (name) => {
 	return `       
 ╭─────「 *DONASI SEIKHLASNYA* 」
 ┴
-│√ *PULSA: 08311800241*
-│√ *OVO : 08311800241*
+│√ *gopay: 089610153337*
+│√ *dana : 089610153337*
 ┬
 ╰──────「 *BY ${name}* 」
 
-Untuk Kelangsungan Hidup Bot Karna Kuota Mahal:'
+Untuk Kelangsungan Hidup kontol makanya donasi njink:'
 `
 }
 exports.donasi = donasi
