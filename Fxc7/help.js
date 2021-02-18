@@ -301,6 +301,17 @@ Follow ig *@awcringe.tolol*
 │➻ *${prefix}joox Monolog Pamungkas*
 │➻ *${prefix}smule Link Video Smule*
 ┬
+╰────────────────────────
+╭─────「 *SUPPORT ${name}* 」
+┴
+│➲ *O BOT*
+│➲ *M. HADI FIRMANSYA*
+│➲ *DELIA AULIA*
+│➲ *KEVIN DAVID*
+│➲ *FXC7*
+│➲ *LM0* 
+│➲ *PANJUL* 
+┬
 ╰────────────────────────`
 }
 
