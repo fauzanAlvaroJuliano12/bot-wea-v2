@@ -2,10 +2,9 @@
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
-SUBSCRIBE:ANKER PRODUCTION
-DI SITU ADA TUTORIAL JADI BOT
+Follow ig *@awcringe.tolol*
 
-╭──────「 *REGULATION ${name}* 」
+╭──────「 *${name}* 」
 ┴
 ┣⊱  \`\`\`NAMA USER:\`\`\` *${pushname2}*
 ┣⊱  \`\`\`VERIVICATION:\`\`\` ✅
@@ -22,7 +21,7 @@ DI SITU ADA TUTORIAL JADI BOT
 ╰────────────────────────
 
 
-╭──────「 *ABOUT ${name}* 」
+╭──────「 *${name}* 」
 ┴
 │➻ *${prefix}report lapor bug*
 │➻ *${prefix}info*
@@ -43,7 +42,7 @@ DI SITU ADA TUTORIAL JADI BOT
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *MEDIA DOWNLOADER* 」
 ┴
 │➻ *${prefix}tiktokstalk username*
-│➻ *${prefix}igstalk _farhan_xcode7*
+│➻ *${prefix}igstalk*
 │➻ *${prefix}instavid link valid*
 │➻ *${prefix}instaimg link valid*
 │➻ *${prefix}instastory username*
@@ -64,20 +63,20 @@ DI SITU ADA TUTORIAL JADI BOT
 ┴
 │➻ *${prefix}quotemaker tx/wtrmk/tema*
 │➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}croman FXC7 dan BOT*
-│➻ *${prefix}slide Fxc7 BOT WA*
+│➻ *${prefix}croman*
+│➻ *${prefix}slide*
 │
-│➻ *${prefix}tahta FXC7*
-│➻ *${prefix}cglass FXC7*
-│➻ *${prefix}cstyle FXC7*
-│➻ *${prefix}cgame FXC7*
-│➻ *${prefix}clove FXC7*
-│➻ *${prefix}cparty FXC7*
-│➻ *${prefix}csky FXC7*
-│➻ *${prefix}tts id Haii*
-│➻ *${prefix}ttp Fxc7*
-│➻ *${prefix}cballon Fxc7*
-│➻ *${prefix}cpaper Fxc7*
+│➻ *${prefix}tahta*
+│➻ *${prefix}cglass*
+│➻ *${prefix}cstyle*
+│➻ *${prefix}cgame*
+│➻ *${prefix}clove*
+│➻ *${prefix}cparty*
+│➻ *${prefix}csky*
+│➻ *${prefix}tts*
+│➻ *${prefix}ttp*
+│➻ *${prefix}cballon*
+│➻ *${prefix}cpaper*
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -181,14 +180,14 @@ DI SITU ADA TUTORIAL JADI BOT
 ┴
 │➻ *${prefix}jarak Banyuwangi/Surabaya*
 │➻ *${prefix}translate en/Apa kabar?*
-│➻ *${prefix}pasangan Farhan/Iriene*
-│➻ *${prefix}gantengcek Farhan*
-│➻ *${prefix}cantikcek Iriene*
-│➻ *${prefix}artinama Farhan*
-│➻ *${prefix}persengay Topan*
-│➻ *${prefix}pbucin Farhan*
-│➻ *${prefix}bpfont Farhan*
-│➻ *${prefix}textstyle FXC7*
+│➻ *${prefix}pasangan*
+│➻ *${prefix}gantengcek*
+│➻ *${prefix}cantikcek*
+│➻ *${prefix}artinama*
+│➻ *${prefix}persengay*
+│➻ *${prefix}pbucin*
+│➻ *${prefix}bpfont*
+│➻ *${prefix}textstyle*
 │➻ *${prefix}jadwaltv antv*
 │➻ *${prefix}lirik melukis senja*
 │➻ *${prefix}chord Melukis senja*
@@ -301,20 +300,6 @@ DI SITU ADA TUTORIAL JADI BOT
 │➻ *${prefix}ytmp4 link yt*
 │➻ *${prefix}joox Monolog Pamungkas*
 │➻ *${prefix}smule Link Video Smule*
-┬
-╰────────────────────────
-
-
-╭─────「 *SUPPORT ${name}* 」
-┴
-│➲ *O BOT*
-│➲ *M. HADI FIRMANSYA*
-│➲ *DELIA AULIA*
-│➲ *KEVIN DAVID*
-│➲ *MY TEAM FXC7 BOT*
-│➲ *CONTENT CREATOR BOT WHATSAPP*
-│➲ *FXC7*
-│➲ *LM0* <editor>
 ┬
 ╰────────────────────────`
 }
