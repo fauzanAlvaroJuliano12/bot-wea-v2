@@ -2516,17 +2516,15 @@ async function starts() {
 					if (!isUser) return reply(mess.only.userB)
 					if (args.length < 1) return reply('Urlnya mana gan?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://api.vhtear.com/ytdl?link=${args[0]}&apikey=${VthearApi}`, {method: 'get'})
+					anu = await fetchJson(`https://alfians-api.herokuapp.com/api/yta?url=${args[0]}`)
 					if (anu.error) return reply(anu.error)
-					yta = `「 *YOUTUBE MP3 DOWNLOADER* 」\n\n• Title : *${anu.result.title}*\n• *Size:* ${anu.result.size}\n• *Link:* https://www.youtu.be/${anu.result.id}n\n Tunggu Sebentar 1 menit Mungkin Agak Lama Karna Mendownload Video`
-					buff = await getBuffer(anu.result.imgUrl)
+					yta = `「 *YOUTUBE MP3 DOWNLOADER* 」\n\n• Title : *${anu.title}*\n• *Size:* ${anu.filesize}\n• *Resolusi:* ${anu.resolution}\n\n Tunggu Sebentar 1 menit Mungkin Agak Lama Karna Mendownload Audio`
+					buff = await getBuffer(anu.thumb)
 					reply(mess.wait)
-					buffer = await getBuffer(anu.result.UrlMp3)
+					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buff, image, {quoted: mek, caption: yta})
-					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.result.title}.mp3`, quoted: mek, caption: 'Nih Gan'})
-					await limitAdd(sender) 
-					break 
-
+					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek, caption: 'Nih Tod'})
+					break
            case 'playmp3':
                 if (isBanned) return reply(mess.only.benned)    
 			
