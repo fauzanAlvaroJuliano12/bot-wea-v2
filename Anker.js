@@ -429,7 +429,7 @@ async function starts() {
 					client.updatePresence(from, Presence.composing)
 					if (args.length < 1) return
 					if (!isOwner) return reply(mess.only.ownerB)
-					addpremium = `${body.slice(9)}@.whatsapp.net`
+					addpremium = `${body.slice(9)}@whatsapp.net`
 					userpremium.push(addpremium)
 					fs.writeFileSync('./database/json/premium.json', JSON.stringify(userpremium))
 					reply(`*Berhasil Menambahkan ${addpremium} Ke database User Premium*`)
