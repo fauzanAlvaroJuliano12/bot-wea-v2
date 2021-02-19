@@ -2531,17 +2531,16 @@ async function starts() {
                 if (isBanned) return reply(mess.only.benned)    
 			
 				if (!isUser) return reply(mess.only.userB)
-                reply(mess.wait)
-                play = body.slice(9)
-                anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=${ZeksApi}`, {method: 'get'})
-               if (anu.error) return reply(anu.error)
-                 infomp3 = `「 *TIMELINE PLAY MP3* 」\n*• Judul:* ${anu.result.title}\n*• Source:* ${anu.result.source}\n*• Ukuran:* ${anu.result.size}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM YA SAYANG*`
-                buffer = await getBuffer(anu.result.thumbnail)
-                lagu = await getBuffer(anu.result.url_audio)
-                client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
-                client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
-                await limitAdd(sender) 
-                break 
+                if (args.length < 1) return reply('Urlnya mana sayang?')
+					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
+					anu = await fetchJson(`http://api.hurtzcrafter.xyz/ytdlurl?url=${args[0]}`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					teks = `*Title* : ${anu.title}\n*duration* : ${anu.duration}`
+					gambar = await getBuffer(anu.thumb.url)
+					client.sendMessage(from, gambar, image, {quoted: mek, caption: teks})
+					buffer = await getBuffer(anu.audio[0].url)
+					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', ptt:true, quoted: mek})
+					break
  
             case 'smule':
 	       if (isBanned) return reply(mess.only.benned)
