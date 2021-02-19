@@ -173,6 +173,7 @@ async function starts() {
 
 			body = (type === 'conversation' && mek.message.conversation.startsWith(prefix)) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption.startsWith(prefix) ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption.startsWith(prefix) ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text.startsWith(prefix) ? mek.message.extendedTextMessage.text : ''
 			budy = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : ''
+                        const auto = budy.toLowerCase()
 			const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
 			const args = body.trim().split(/ +/).slice(1)
 			const Far = args.join(' ')
@@ -236,7 +237,18 @@ async function starts() {
 			const mentions = (teks, memberr, id) => {
 				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}
-
+                        if (auto.match('anjing')){
+		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                        }
+		        if (auto.match('kontol')){
+		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }                   
+                        if (auto.match('bangsat')){
+		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }
 			colors = ['red','white','black','blue','yellow','green', 'aqua']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 			const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
