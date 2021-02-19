@@ -2465,7 +2465,6 @@ async function starts() {
          case 'joox':
 			if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
-				if (!isPrem) return reply(mess.only.premium)
                 anu = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${body.slice(6)}&apikey=${TobzApi}`, {method: 'get'})
                if (anu.error) return reply(anu.error)
                  infomp3 = `「 *JOOX* 」\n\n*• Judul* : ${anu.result.judul}\n*• Album* : ${anu.result.album}\n*• Dipublikasi* : ${anu.result.dipublikasi}\n\n*TUNGGU SEBENTAR LAGI DIKIRIM MOHON JANGAN SPAM*`
@@ -2480,7 +2479,7 @@ async function starts() {
           case 'snack':
 			if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
-				if (!isPrem) return reply(mess.only.premium)
+		
 				if (args.length < 1) return reply('Urlnya mana gan?')
 					if (!isUrl(args[0]) && !args[0].includes('sck')) return reply(mess.error.Iv)
                 anu = await fetchJson(`https://api-anoncybfakeplayer.herokuapp.com/sckdown?url=${args[0]}`, {method: 'get'})
@@ -2496,7 +2495,7 @@ async function starts() {
                 
        case 'ytmp4':
     				if (isBanned) return reply(mess.only.benned)    
-    				if (!isPrem) return reply(mess.only.premium)
+    				
     				if (!isUser) return reply(mess.only.userB)
 					if (args.length < 1) return reply('Urlnya mana gan?')
 					if (!isUrl(args[0]) && !args[0].includes('youtu.be')) return reply(mess.error.Iv)
@@ -2513,7 +2512,7 @@ async function starts() {
 
 				case 'ytmp3':
 					if (isBanned) return reply(mess.only.benned)    
-					if (!isPrem) return reply(mess.only.premium)
+					
 					if (!isUser) return reply(mess.only.userB)
 					if (args.length < 1) return reply('Urlnya mana gan?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
@@ -2530,7 +2529,7 @@ async function starts() {
 
            case 'playmp3':
                 if (isBanned) return reply(mess.only.benned)    
-				if (!isPrem) return reply(mess.only.premium)
+			
 				if (!isUser) return reply(mess.only.userB)
                 reply(mess.wait)
                 play = body.slice(9)
@@ -2546,7 +2545,7 @@ async function starts() {
  
             case 'smule':
 	       if (isBanned) return reply(mess.only.benned)
-	       if (!isPrem) return reply(mess.only.premium)
+	       
 				if (!isUser) return reply(mess.only.userB)
 					if (args.length < 1) return reply('Urlnya mana gan?')
 					if (!isUrl(args[0]) && !args[0].includes('c-ash.smule')) return reply(mess.error.Iv)
