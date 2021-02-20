@@ -7,6 +7,7 @@
 - What's New?
 * New Features
 */
+/penambahan autoresponder vn by Ling
 const {
    WAConnection,
    MessageType,
@@ -238,15 +239,23 @@ async function starts() {
 				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}
                         if (auto.match('anjing')){
-		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                         }
 		        if (auto.match('kontol')){
-		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }                   
                         if (auto.match('bangsat')){
-		        const nani = await getBuffer(`https://sjl.ijjiii.is/05bb4223fafc3bc7e156c9fe8196692d/cvT5xmrPAaQ/ccnwcrswecaweni`, {method: 'get'});
+		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
+                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }
+                        if (auto.match('p')){
+		        const nani = await getBuffer(`https://x2convert.com/id/Thankyou?token=U2FsdGVkX19YdpmFWPQsSKJq7hsno6mQvTs5uyJxixT3gHWbjOzIYbMxPdzocGJ6zXQrrwHZp0vWRhh8pFBn%2bFD8b3m3ClWnoRVpFwppunlNxfjynZFrBuqYRq5GiFXudX7F9kLskwZZfNHCV7e5ay0h5x2dsXXaNsZwrQQ69TBlbnJT0h9D8UAzloxsMY4yTBJb%2bD3rep%2bdqO%2baTYs8jg%3d%3d&s=youtube&id=&h=1702744780907040484`, {method: 'get'});
+                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }
+                        if (auto.match('fuck')){
+		        const nani = await getBuffer(`https://x2convert.com/id/Thankyou?token=U2FsdGVkX19YdpmFWPQsSKJq7hsno6mQvTs5uyJxixT3gHWbjOzIYbMxPdzocGJ6zXQrrwHZp0vWRhh8pFBn%2bFD8b3m3ClWnoRVpFwppunlNxfjynZFrBuqYRq5GiFXudX7F9kLskwZZfNHCV7e5ay0h5x2dsXXaNsZwrQQ69TBlbnJT0h9D8UAzloxsMY4yTBJb%2bD3rep%2bdqO%2baTYs8jg%3d%3d&s=youtube&id=&h=1702744780907040484`, {method: 'get'});
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }
 			colors = ['red','white','black','blue','yellow','green', 'aqua']
