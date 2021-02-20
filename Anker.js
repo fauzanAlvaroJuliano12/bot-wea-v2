@@ -617,18 +617,19 @@ async function starts() {
                  client.sendMessage(from, 'Jika Mau Save Chat Aja Gan Ntar Disave Back:)',text, { quoted: mek} )
                  break
                  case 'fitnah':	
-				case 'fake':          
+				
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 				if (isLimit(sender)) return reply(limitend(pushname2))
-                    if (!isGroup) return reply(mess.only.group)
-                    arg = body.substring(body.indexOf(' ') + 1)
-				    isi = arg.split('/')[0] 
-			        pesan = arg.split('/')[1] 
-				    pesan2 = arg.split('/')[2] 
-                    costum(pesan, isi, pesan2)
-                    await limitAdd(sender) 
-                    break 
+                                if (!isGroup) return reply(mess.only.group)
+                                if (args.length < 1) return reply(`Usage :\n${prefix}fitnah [@tag|pesan|balasanbot]]\n\nEx : \n${prefix}fitnah @tagmember|hai|hai juga`)
+                                var gh = body.slice(8)
+	                        mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+				var replace = gh.split("|")[0];
+	                        var target = gh.split("|")[1];
+			        var bot = gh.split("|")[2];
+		                client.sendMessage(from, `${bot}`, text, {quoted: { key: { fromMe: false, participant: `${mentioned}`, ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target}` }}})
+		                break
 
 				case 'infogc':
 				case 'groupinfo':
