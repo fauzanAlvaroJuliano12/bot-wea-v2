@@ -238,24 +238,24 @@ async function starts() {
 				(id == null || id == undefined || id == false) ? client.sendMessage(from, teks.trim(), extendedText, {contextInfo: {"mentionedJid": memberr}}) : client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": memberr}})
 			}
                         if (auto.match('anjing')){
-		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
-                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-                        }
+		        const anjink = fs.readFileSync('./src/anjing.mp3');
+                        client.sendMessage(from, anjink, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	         	}
 		        if (auto.match('kontol')){
-		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
-                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-		        }                   
+		        const anjink = fs.readFileSync('./src/anjing.mp3');
+                        client.sendMessage(from, anjink, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	         	}                   
                         if (auto.match('bangsat')){
-		        const nani = await getBuffer(`https://file102.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOHV2WXFuOUkxekJrdlNyeER2OFl1MmU2cExjNEJJN2RjaTR5ckhkdHI1VC9NZVkzT1lpbVF1WTB5VjNHRXNvUWJ0QytjdHR3R0FJd2pjQStxbHVlM2szOTFoZ3ErTTVQQUVMWlJhbmh3cWt4Y3hDbUs4L0Rhc3h6MnRFS3VzWG5XZENrWWdob0tETHZkNGN3TzBtekVNdDdBbFpVZHZTK041NDVBMS9YQTVWZW5rT1ZtNzRVbENBSm5aYzFPejhnPQ%3D%3D`, {method: 'get'});
-                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-		        }
+		        const anjink = fs.readFileSync('./src/anjing.mp3');
+                        client.sendMessage(from, anjink, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+	         	}
                         if (auto.match('fuck')){
-		        const nani = await getBuffer(`https://x2convert.com/id/Thankyou?token=U2FsdGVkX19YdpmFWPQsSKJq7hsno6mQvTs5uyJxixT3gHWbjOzIYbMxPdzocGJ6zXQrrwHZp0vWRhh8pFBn%2bFD8b3m3ClWnoRVpFwppunlNxfjynZFrBuqYRq5GiFXudX7F9kLskwZZfNHCV7e5ay0h5x2dsXXaNsZwrQQ69TBlbnJT0h9D8UAzloxsMY4yTBJb%2bD3rep%2bdqO%2baTYs8jg%3d%3d&s=youtube&id=&h=1702744780907040484`, {method: 'get'});
+		        const nani = fs.readFileSync('./src/fuck.mp3');
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }
                         if (auto.match('nongkrong')){
-		        const nani = await getBuffer(`https://file100.iijj.nl/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOG9QZ3prOEl4akJFdEFLQUhxNWdyMXFxdE01b0pLSzREeUxXeUVNcGNxSHVLVjhtRUpSdWN0SjFqRUZXTTU0VjQ2eG1kdHR3R1FKdDhWd0w5MWVXc20zbzd3aEQrYWRQYUhvZFhZM1p3bkUxMjF5ZXM3Y0NBajBIUmcyNjNzMXJOWVRSWjlEd09NcWo1MWRsTnpYbkNmZkx3MnAwQThIZkpzOGtlZ3FuUDRsU3cwTHNrdllFa0RCd2hLc1lieW95b3pPYWQ4dz09`, {method: 'get'});
-                        client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        const nong = fs.readFileSync('./src/nongkrong.mp3');
+                        client.sendMessage(from, nong, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }
 			colors = ['red','white','black','blue','yellow','green', 'aqua']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
