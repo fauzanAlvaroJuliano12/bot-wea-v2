@@ -259,7 +259,8 @@ async function starts() {
 			const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
 			const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
 			const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
-			
+			const isQuotedAudio = type === 'extendedTextMessage' && content.includes('audioMessage')
+
 			const checkLimit = (sender) => {
                 let found = false
                     for (let lmt of _limit) {
