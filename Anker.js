@@ -250,13 +250,10 @@ async function starts() {
                         client.sendMessage(from, anjink, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	         	}
                         if (auto.match('fuck')){
-		        const nani = fs.readFileSync('./src/fuck.mp3');
+		        const nani = fs.readFileSync('./src/anjing.mp3');
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }
-                        if (auto.match('nongkrong')){
-		        const nong = fs.readFileSync('./src/nongkrong.mp3');
-                        client.sendMessage(from, nong, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-		        }
+                        
 			colors = ['red','white','black','blue','yellow','green', 'aqua']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 			const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
