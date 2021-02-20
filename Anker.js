@@ -860,9 +860,7 @@ async function starts() {
 					})
 				break
                                 case 'bass':                 
-                                if (!isUser) return reply(mess.only.userB)
-                                if (!isPublic) return reply(mess.only.publikG)
-                                if (isBanned) return reply(mess.only.benned)
+                                
 					encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 
 					media = await client.downloadAndSaveMediaMessage(encmedia)
