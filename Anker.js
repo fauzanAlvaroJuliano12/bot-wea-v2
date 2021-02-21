@@ -253,7 +253,14 @@ async function starts() {
 		        const nani = fs.readFileSync('./src/anjing.mp3');
                         client.sendMessage(from, nani, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 		        }
-                        
+                        if (auto.match('iya')){
+		        const st = fs.readFileSync('./src/iya.mp3');
+                        client.sendMessage(from, st, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }
+                        if (auto.match('bot')){
+		        const magw = fs.readFileSync('./src/bot.mp3');
+                        client.sendMessage(from, magw, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		        }
 			colors = ['red','white','black','blue','yellow','green', 'aqua']
 			const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 			const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
