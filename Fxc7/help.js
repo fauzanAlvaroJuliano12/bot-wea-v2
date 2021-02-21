@@ -84,6 +84,8 @@ Follow ig *@awcringe.tolol*
 │➻ *${prefix}img2url*
 │➻ *${prefix}tomp3*
 │➻ *${prefix}ocr*
+│➻ *${prefix}bass*
+│➻ *${prefix}tupai*
 ┬
 ╰──────────────────────────
 
