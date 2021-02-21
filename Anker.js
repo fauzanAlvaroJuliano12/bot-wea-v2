@@ -1847,10 +1847,10 @@ async function starts() {
                     if (isBanned) return reply(mess.only.benned)    
    					if (!isUser) return reply(mess.only.userB)
    					if (isLimit(sender)) return reply(limitend(pushname2))
-                        anu = await fetchJson(`https://api.vhtear.com/igprofile?query=${body.slice(9)}&apikey=${VthearApi}`, {method: 'get'})
-                     buffer = await getBuffer(anu.result.picture)
+                        anu = await fetchJson(`https://videfikri.com/api/igstalk/?username=${body.slice(9)}`, {method: 'get'})
+                     buffer = await getBuffer(anu.result.profile_hd)
                      reply(mess.wait)
-                     hasil = `「 *INSTAGRAM STALKER* 」\n\n• Link: https://www.instagram.com/${anu.result.username}\n• Fullname : ${anu.result.name}\n• Followers : ${anu.result.follower}\n• Following : ${anu.result.follow}\n• Jumlah Postingan: ${anu.result.post_count}\n• Bio : ${anu.result.biography}`
+                     hasil = `「 *INSTAGRAM STALKER* 」\n\n• Link: https://www.instagram.com/${anu.result.username}\n• Fullname : ${anu.result.full_name}\n• Followers : ${anu.result.followers}\n• Following : ${anu.result.following}\n• Jumlah Postingan: ${anu.result.post_count}\n• Bio : ${anu.result.bio}`
                     client.sendMessage(from, buffer, image, {quoted: mek, caption: hasil})
                     await limitAdd(sender) 
                     break 
