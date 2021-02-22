@@ -1,320 +1,130 @@
-// menu fitur bot
+// menu fitur bot, edit aja temen gw yg maksa ganti 
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
 Follow ig *@awcringe.tolol*
 
-╭──────「 *${name}* 」
-┴
-┣⊱  \`\`\`NAMA USER:\`\`\` *${pushname2}*
-┣⊱  \`\`\`VERIVICATION:\`\`\` ✅
-┣⊱  \`\`\`LIMIT:\`\`\` *${limitt} perhari*
-┣⊱  \`\`\`AKTIF:\`\`\` ${kyun(uptime)}
-┣⊱  \`\`\`JAM:\`\`\` *${jam} WIB*
-┣⊱  \`\`\`TANGGAL:\`\`\` *${tanggal}*
-┣⊱  \`\`\`VERSION:\`\`\` *6.5.0*
-┣⊱  \`\`\`USER TERDAFTAR:\`\`\` *${user.length} User*
-┣⊱  ❌ *SPAM*
-┣⊱  ❌ *CALL & VC*
-┣⊱  \`\`\`Melanggar??\`\`\` *Banned + Out Group*
-┬
-╰────────────────────────
+_*RULES*_
 
+*Welcome to DarkBot by julian*
+Sebelum menggunakan bot
+ ${prefix}daftar terlebih dahulu
+Hai Kamu This is DarkBot/By julian
 
-╭──────「 *${name}* 」
-┴
-│➻ *${prefix}report lapor bug*
-│➻ *${prefix}info*
-│➻ *${prefix}donasi*
-│➻ *${prefix}limit*
-│➻ *${prefix}owner*
-│➻ *${prefix}speed*
-│➻ *${prefix}daftar*
-│➻ *${prefix}totaluser*
-│➻ *${prefix}blocklist*
-│➻ *${prefix}banlist*
-│➻ *${prefix}premiumlist*
-│➻ *${prefix}bahasa*
-┬
-╰────────────────────────
+Mau tau ownernya kak ? ketik  *${prefix}owner*
+Mau donasi biar bot jalan terus ? ketik *${prefix}donasi*
 
+_*NOTE*_
+Telfon & vc = auto block + ban
+unban + unblock = hubungi owner
 
-͏͏͏͏͏͏͏͏͏͏͏͏͏͏╭──────「 *MEDIA DOWNLOADER* 」
-┴
-│➻ *${prefix}tiktokstalk username*
-│➻ *${prefix}igstalk*
-│➻ *${prefix}instavid link valid*
-│➻ *${prefix}instaimg link valid*
-│➻ *${prefix}instastory username*
-│➻ *${prefix}ssweb url*
-│➻ *${prefix}url2img Url*
-│➻ *${prefix}tiktok*
-│➻ *${prefix}fototiktok*
-│➻ *${prefix}memeindo*
-│➻ *${prefix}kbbi*
-│➻ *${prefix}wait*
-│➻ *${prefix}trendtwit*
-│➻ *${prefix}google berita terkini*
-┬
-╰────────────────────────
+prefix " ${prefix} "
 
+*prefix adalah suatu bubuh kata diawal kalimat*
 
-╭──────「 *CREATOR MENU* 」
-┴
-│➻ *${prefix}quotemaker tx/wtrmk/tema*
-│➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}croman*
-│➻ *${prefix}slide*
-│
-│➻ *${prefix}tahta*
-│➻ *${prefix}cglass*
-│➻ *${prefix}cstyle*
-│➻ *${prefix}cgame*
-│➻ *${prefix}clove*
-│➻ *${prefix}cparty*
-│➻ *${prefix}csky*
-│➻ *${prefix}tts*
-│➻ *${prefix}ttp*
-│➻ *${prefix}cballon*
-│➻ *${prefix}cpaper*
-│
-│➻ *${prefix}stiker*
-│➻ *${prefix}gifstiker*
-│➻ *${prefix}toimg*
-│➻ *${prefix}img2url*
-│➻ *${prefix}tomp3*
-│➻ *${prefix}ocr*
-│➻ *${prefix}bass*
-│➻ *${prefix}tupai*
-┬
-╰──────────────────────────
+❐ *jam*        : *${jam} WIB*
+❐ *tanggal*  : *${tanggal}*
+❐  *runtime* : *${kyun(uptime)}
 
+╔[ *¢MENU BOT* ]
+║
+╠➤ ${prefix}playmp3 ( link )
+╠➤ ${prefix}anjing
+╠➤ ${prefix}kucing
+╠➤ ${prefix}toimg ( reply sticker
+╠➤ ${prefix}tupai ( reply vn/audio)
+╠➤ ${prefix}bass ( reply vn/audio
+╠➤ ${prefix}tahta
+╠➤ ${prefix}ttp
+╠➤ ${prefix}tts
+╠➤ ${prefix}persengay
+╠➤ ${prefix}pbucin
+╠➤ ${prefix}katailham
+╠➤ ${prefix}pantum
+╠➤ ${prefix}katacinta ( alay anjing )
+╠➤ ${prefix}bucin
+╠➤ ${prefix}katabijak
+╚➤ ${prefix}fakta
 
-╭───────「 *GROUP ONLY* 」
-┴
-│➻ *${prefix}modeanime On/Off*
-│➻ *${prefix}naruto*
-│➻ *${prefix}minato*
-│➻ *${prefix}boruto*
-│➻ *${prefix}hinata*
-│➻ *${prefix}sakura*
-│➻ *${prefix}sasuke*
-│➻ *${prefix}toukachan*
-│➻ *${prefix}rize*
-│➻ *${prefix}akira*
-│➻ *${prefix}itori*
-│➻ *${prefix}kurumi*
-│➻ *${prefix}miku*
-│➻ *${prefix}anime*
-│➻ *${prefix}animecry*
-│➻ *${prefix}neonime*
-│➻ *${prefix}animekiss*
-┬
-╰───────────────────────
+╔[ *¢Fun Group* ]
+║
+╠➤ ${prefix}PornHub step brother
+╠➤ ${prefix}gifstiker
+╠➤ ${prefix}sticker
+╠➤ ${prefix}Dorking
+╠➤ ${prefix}hilih
+╠➤ ${prefix}fitnah
+╠➤ ${prefix}tebakgambar
+╠➤ ${prefix}darkjokes
+╠➤ ${prefix}xvideos japan
+╠➤ ${prefix}playstore nama aplikasi
+╠➤ ${prefix}igstalk apa ignya
+╠➤ ${prefix}brainly pertanyaan
+╠➤ ${prefix}mimpi kepala charger
+╠➤ ${prefix}artinama siapa nama lu
+╠➤ ${prefix}jamdunia Jakarta misalnya
+╠➤ ${prefix}jadwaltv mnctv
+╚➤ ${prefix}caklontong
 
-╭───────「 *GROUP ONLY* 」
-┴
-│➻ *${prefix}welcome On/Off*
-│➻ *${prefix}grup buka/tutup*
-│➻ *${prefix}ownergrup*
-│➻ *${prefix}setpp*
-│➻ *${prefix}infogc*
-│➻ *${prefix}add 628xxxxxxxxxx*
-│➻ *${prefix}kick @mentioned*
-│➻ *${prefix}kicktime @mentioned*
-│➻ *${prefix}promote @mentioned*
-│➻ *${prefix}demote @mentioned*
-│➻ *${prefix}setname*
-│➻ *${prefix}setdesc*
-│➻ *${prefix}linkgrup*
-│➻ *${prefix}tagme*
-│➻ *${prefix}hidetag*
-│➻ *${prefix}tagall*
-│➻ *${prefix}mentionall*
-│➻ *${prefix}fitnah*
-│➻ *${prefix}listadmin*
-┬
-╰────────────────────────
+╔[ *GrupMenu* ]
+║
+╠➤ ${prefix}tagme
+╠➤ ${prefix}kick @member
+╠➤ ${prefix}demote @admin
+╠➤ ${prefix}promote @member
+╠➤ ${prefix}tagall
+╠➤ ${prefix}hidetag
+╠➤ ${prefix}ownergrup
+╠➤ ${prefix}welcome on╠➤ ${prefix}off
+╚➤ ${prefix}grup buka╠➤ ${prefix}tutup ( kalo bot jadi admin
 
-╭───────「 *GROUP ONLY* 」
-┴
-│➻ *${prefix}nsfw On/Off*
-│➻ *${prefix}nsfwloli*
-│➻ *${prefix}nsfwblowjob*
-│➻ *${prefix}nsfwneko*
-│➻ *${prefix}nsfwtrap*
-│➻ *${prefix}hentai*
-│➻ *${prefix}simih On/Off*
-┬
-╰────────────────────────
+¢Hanya owner yang bisa akses menu ini
 
+➤ ${prefix}ownermenu (private)
 
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}anjing*
-│➻ *${prefix}kucing*
-│➻ *${prefix}testime*
-│➻ *${prefix}hilih*
-│➻ *${prefix}apakah*
-│➻ *${prefix}kapankah*
-│➻ *${prefix}bisakah*
-│➻ *${prefix}rate*
-│➻ *${prefix}watak*
-│➻ *${prefix}hobby*
-│➻ *${prefix}infogempa*
-│➻ *${prefix}infonomor*
-│➻ *${prefix}quotes*
-│➻ *${prefix}truth*
-│➻ *${prefix}dare*
-│➻ *${prefix}katabijak*
-│➻ *${prefix}fakta*
-│➻ *${prefix}darkjokes*
-│➻ *${prefix}bucin*
-│➻ *${prefix}pantun*
-│➻ *${prefix}katacinta*
-│➻ *${prefix}jadwaltvnow*
-│➻ *${prefix}hekerbucin*
-│➻ *${prefix}katailham*
-┬
-╰────────────────────────
+╔[ *18+ menu om :v* ]
+║
+╠➤ ${prefix}nsfw on/off
+╠➤ ${prefix}modeanime on/(on kan dulu)
+╠➤ ${prefix}hentai
+╠➤ ${prefix}nsfwblowjob
+╠➤ ${prefix}nsfwloli
+╚➤ ${prefix}nsfwneko
 
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}jarak Banyuwangi/Surabaya*
-│➻ *${prefix}translate en/Apa kabar?*
-│➻ *${prefix}pasangan*
-│➻ *${prefix}gantengcek*
-│➻ *${prefix}cantikcek*
-│➻ *${prefix}artinama*
-│➻ *${prefix}persengay*
-│➻ *${prefix}pbucin*
-│➻ *${prefix}bpfont*
-│➻ *${prefix}textstyle*
-│➻ *${prefix}jadwaltv antv*
-│➻ *${prefix}lirik melukis senja*
-│➻ *${prefix}chord Melukis senja*
-│➻ *${prefix}wiki Adolf Hitler*
-│➻ *${prefix}brainly pertanyaan*
-│➻ *${prefix}resepmasakan rawon*
-│➻ *${prefix}map Banyuwangi*
-│➻ *${prefix}film Fast and Farious*
-│➻ *${prefix}pinterest gambar kucing*
-│➻ *${prefix}infocuaca Banyuwangi*
-│➻ *${prefix}jamdunia Banyuwangi*
-│➻ *${prefix}mimpi Ular*
-│➻ *${prefix}infoalamat jalan Banyuwangi*
-│➻ *${prefix}playstore WhatsApp*
-┬
-╰───────────────────────────
+╔[ *WeeaBoo menu anjing* ]
+║
+╠➤ ${prefix}boruto
+╠➤ ${prefix}naruto
+╠➤ ${prefix}minato
+╠➤ ${prefix}hinata
+╠➤ ${prefix}sakura
+╠➤ ${prefix}sasuke
+╠➤ ${prefix}toukachan
+╠➤ ${prefix}rize
+╠➤ ${prefix}akira
+╠➤ ${prefix}itori
+╠➤ ${prefix}kurumi
+╠➤ ${prefix}miku
+╠➤ ${prefix}anime
+╠➤ ${prefix}animecry
+╠➤ ${prefix}animekiss
+╚➤ ${prefix}neonime
 
+╔[ *Menu Ngontol* ]
+║
+╠➤ ${prefix}spamcall 08xxxxx
+╚➤ ${prefix}spamgmail bapaklu@gmail.com
 
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}puisiimg*
-│➻ *${prefix}asupan*
-│➻ *${prefix}tebakgambar*
-│➻ *${prefix}caklontong*
-│➻ *${prefix}family100*
-│➻ *${prefix}kalkulator 13*12*
-│➻ *${prefix}moddroid lightroom*
-│➻ *${prefix}happymod lightroom*
-┬
-╰────────────────────────
-
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}cerpen*
-│➻ *${prefix}cersex*
-│➻ *${prefix}randombokep*
-│➻ *${prefix}pornhub stepMoms*
-│➻ *${prefix}xvideos japan*
-│➻ *${prefix}nekopoi oni chichi*
-┬
-╰────────────────────────
-
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}jadwalsholat Banyuwangi*
-│➻ *${prefix}quran*
-│➻ *${prefix}quranlist*
-│➻ *${prefix}quransurah 1*
-┬
-╰────────────────────────
-
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}becrypt string*
-│➻ *${prefix}encode64 string*
-│➻ *${prefix}decode64 encrypt*
-│➻ *${prefix}encode32 string*
-│➻ *${prefix}decode32 encrypt*
-│➻ *${prefix}encbinary string*
-│➻ *${prefix}decbinary encrypt*
-│➻ *${prefix}encoctal string*
-│➻ *${prefix}decoctal encrypt*
-│➻ *${prefix}hashidentifier Encrypt Hash*
-│➻ *${prefix}dorking dork*
-│➻ *${prefix}pastebin teks*
-│➻ *${prefix}tinyurl link*
-│➻ *${prefix}bitly link*
-┬
-╰────────────────────────
-
-╭──────「 *OTHERS FUN & GAME* 」
-┴
-│➻ *${prefix}spamcall 083xxxxxxxxx*
-│➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
-│➻ *${prefix}spamgmail contoh@gmail.com*
-┬
-╰────────────────────────
-
-
-╭─────────「 *OWNER ONLY* 」
-┴
-│➻ *${prefix}addprem mentioned*
-│➻ *${prefix}removeprem mention*
-│➻ *${prefix}setmemlimit*
-│➻ *${prefix}setreply*
-│➻ *${prefix}setprefix*
-│➻ *${prefix}setnamebot*
-│➻ *${prefix}setppbot*
-│➻ *${prefix}bc*
-│➻ *${prefix}bcgc*
-│➻ *${prefix}ban*
-│➻ *${prefix}unban*
-│➻ *${prefix}block*
-│➻ *${prefix}unblock*
-│➻ *${prefix}clearall*
-│➻ *${prefix}delete*
-│➻ *${prefix}clone*
-│➻ *${prefix}getses*
-│➻ *${prefix}leave*
-┬
-╰────────────────────────
-
-
-╭────────「 *PREMIUM ONLY* 」
-┴
-│➻ *${prefix}playmp3 menepi*
-│➻ *${prefix}fb link video*
-│➻ *${prefix}snack link snack video*
-│➻ *${prefix}ytmp3 link yt*
-│➻ *${prefix}ytmp4 link yt*
-│➻ *${prefix}joox Monolog Pamungkas*
-│➻ *${prefix}smule Link Video Smule*
-┬
-╰────────────────────────
-╭─────「 *SUPPORT ${name}* 」
-┴
-│➲ *O BOT*
-│➲ *M. HADI FIRMANSYA*
-│➲ *DELIA AULIA*
-│➲ *KEVIN DAVID*
-│➲ *FXC7*
-│➲ *LM0* 
-│➲ *PANJUL* 
-┬
-╰────────────────────────`
+╔[ *creator* ]
+║
+╠➤ *O BOT*
+╠➤ *M. HADI FIRMANSYA*
+╠➤ *DELIA AULIA*
+╠➤ *KEVIN DAVID*
+╠➤ *FXC7*
+╠➤ *L-M0* 
+╚➤ *PANJUL* 
+`
 }
 
 exports.help = help
