@@ -67,7 +67,7 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:fauzan\n'
+            + 'FN:julian\n'
             + 'ORG:Owner owipspabot;\n'
             + 'TEL;type=CELL;type=VOICE;waid=18662118049:+1 (866) 211-8049\n'
             + 'END:VCARD'
