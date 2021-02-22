@@ -41,7 +41,7 @@ const brainly = require('brainly-scraper')
 const cd = 4.32e+7
 const lolis = require('lolis.life')
 const loli = new lolis()
-
+const { ownermenu } = require('./src/ownermenu')
 const { BarBarApi, ZeksApi, TechApi, TobzApi, ItsApi, VthearApi } = JSON.parse(fs.readFileSync('./database/json/apikey.json'))
 const setting = JSON.parse(fs.readFileSync('./database/json/setting.json'))
 const welkom = JSON.parse(fs.readFileSync('./database/json/welkom.json'))
@@ -385,6 +385,9 @@ async function starts() {
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 				client.sendMessage(from, limitcount(limitCounts), text, {quoted: mek})
+                                case 'ownermenu':			
+					client.sendMessage(from, ownermenu(prefix), text)
+					break
 				case 'donasi':
 				case 'donate':
 					client.sendMessage(from, donasi(name), text, {quoted: mek})
