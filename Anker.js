@@ -69,7 +69,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:fauzan\n'
             + 'ORG:Owner owipspabot;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6289610153337:+62 896 1015-3337\n'
+            + 'TEL;type=CELL;type=VOICE;waid=18662118049:+1 (866) 211-8049\n'
             + 'END:VCARD'
 
 prefix = "!"
@@ -201,7 +201,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6289610153337@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["18662118049@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
