@@ -385,7 +385,8 @@ async function starts() {
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 				client.sendMessage(from, limitcount(limitCounts), text, {quoted: mek})
-                                case 'ownermenu':			
+                                case 'ownermenu':
+                                        if (!isOwner) return reply('fitur khusus owner kontol')			
 					client.sendMessage(from, ownermenu(prefix), text)
 					break
 				case 'donasi':
