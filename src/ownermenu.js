@@ -8,6 +8,7 @@ const ownermenu = (prefix) => {
 ╠➤ ${prefix}block
 ╠➤ ${prefix}unblock
 ╠➤ ${prefix}ban
+╠➤ ${prefix}bc
 ╚➤ ${prefix}unban
 `
 }
